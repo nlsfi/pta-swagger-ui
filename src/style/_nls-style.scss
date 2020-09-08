@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+span {
+  font-family: Lato;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+col_header {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.topbar {
+  background: $blueberry;
+}
+.pta-logo-text {
+  font-family: Quicksand,sans-serif;
+  font-size: 1.125rem;
+  color: #fff;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 7px;
+  line-height: 1.56;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  cursor: pointer;
+  text-align: right;
+  box-sizing: border-box;
+}
+.pta-logo {
+  width: 36px;
+  margin-right: 3px;
+}
+
+.header-brand__beta-label {
+  font-family: Lato;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  background-color: #5aa70f;
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-left: 3px;
+}
+
+body, html {
+  min-width: 319px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Quicksand,sans-serif;
+  font-size: 16px;
+  color: #343434;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.nav-item, .nav-item a {
+  width: 78px;
+  height: 20px;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.nav-list {
+  width: 1024px;
+}
+
+.nav {
+  margin-left: 250px;
+}
