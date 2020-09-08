@@ -20,3 +20,5 @@ test/e2e-cypress/videos
 
 dist/*
 apidoc/target
+
+node_modules
