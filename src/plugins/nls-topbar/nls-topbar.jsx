@@ -140,16 +140,6 @@ export default class NlsTopbar extends React.Component {
               <div className="pta-logo-text">PAIKKATIETOALUSTA</div>
               <span className="header-brand__beta-label">Beta</span>
             </Link>
-            <div className="nav">
-              <ul className="nav-list" id="navigation-links">
-                <li className="nav-item"><a aria-current="page" className="pta-link pta-link--nav  pta-link--active" href="/">Etusivu</a></li>
-                <li className="nav-item"><a className="pta-link pta-link--nav " href="/palvelut">Palvelut</a></li>
-                <li className="nav-item"><a className="pta-link pta-link--nav " href="/hae">Paikkatietohaku</a></li>
-                <li className="nav-item"><a className="pta-link pta-link--nav " href="/info">Info</a></li>
-                <li className="nav-item"><a className="pta-link pta-link--nav " href="/ohjeet">Ohjeet</a></li>
-                <li className="nav-item"><a className="pta-link pta-link--nav header__link--login-suomifi" href="/api/v1/login.suomi.fi">Tunnistaudu</a></li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>

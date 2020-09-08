@@ -6,7 +6,7 @@ import ConfigsPlugin from "corePlugins/configs"
 // the Standalone preset
 
 export default [
-  TopbarPlugin,
+  //TopbarPlugin,
   NlsTopbarPlugin,
   ConfigsPlugin,
   () => {
