@@ -22,3 +22,12 @@ apidoc/target
 apidoc/src/main/resources
 node_modules
 package-lock.json
+
+dist/swagger-ui-bundle.js
+dist/swagger-ui-bundle.js.map
+dist/swagger-ui.js
+dist/swagger-ui.js.map
+dist/swagger-ui-standalone-preset.js
+dist/swagger-ui-standalone-preset.js.map
+dist/swagger-ui.css
+dist/swagger-ui.css.map
