@@ -18,7 +18,7 @@ flavors/**/dist/*
 test/e2e-cypress/screenshots
 test/e2e-cypress/videos
 
-dist/*
 apidoc/target
-
+apidoc/src/main/resources
 node_modules
+package-lock.json
