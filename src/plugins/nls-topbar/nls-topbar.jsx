@@ -135,11 +135,16 @@ export default class NlsTopbar extends React.Component {
       <div className="topbar">
         <div className="wrapper">
           <div className="topbar-wrapper">
-            <Link>
+            <a href="https://beta.paikkatietoalusta.fi/">
               <img className="pta-logo" width="36" src={ Logo } alt="PTA logo"/>
               <div className="pta-logo-text">PAIKKATIETOALUSTA</div>
               <span className="header-brand__beta-label">Beta</span>
-            </Link>
+            </a>
+            <div className="nav">
+              <ul className="nav-list">
+                <li className="nav-item"> <a href="https://beta.paikkatietoalusta.fi/hae">Aineistohaku</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
