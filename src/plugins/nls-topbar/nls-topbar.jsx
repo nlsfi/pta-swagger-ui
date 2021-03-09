@@ -1,7 +1,7 @@
 import React, { cloneElement } from "react"
 import PropTypes from "prop-types"
 
-import Logo from "./PTA_icon_white.png"
+import Logo from "./suomi_logo_rgb.svg"
 import {parseSearch, serializeSearch} from "../../core/utils"
 
 export default class NlsTopbar extends React.Component {
@@ -135,14 +135,10 @@ export default class NlsTopbar extends React.Component {
       <div className="topbar">
         <div className="wrapper">
           <div className="topbar-wrapper">
-            <a href="https://beta.paikkatietoalusta.fi/">
-              <img className="pta-logo" width="36" src={ Logo } alt="PTA logo"/>
-              <div className="pta-logo-text">PAIKKATIETOALUSTA</div>
-              <span className="header-brand__beta-label">Beta</span>
-            </a>
+              <img className="pth-logo" src={ Logo } alt="PTH logo"/>
             <div className="nav">
               <ul className="nav-list">
-                <li className="nav-item"> <a href="https://beta.paikkatietoalusta.fi/hae">Aineistohaku</a></li>
+                <li className="nav-item"> <a href="https://paikkatietojentuottajat-koekaytto.maanmittauslaitos.fi/">Aineistohaku</a></li>
               </ul>
             </div>
           </div>
