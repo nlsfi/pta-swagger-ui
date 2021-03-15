@@ -135,10 +135,13 @@ export default class NlsTopbar extends React.Component {
       <div className="topbar">
         <div className="wrapper">
           <div className="topbar-wrapper">
-              <img className="pth-logo" src={ Logo } alt="PTH logo"/>
+            <a href="https://paikkatietojentuottajat-koekaytto.maanmittauslaitos.fi/">
+              <div className="pth-logo-div">
+                <img className="pth-logo" src={ Logo } alt="PTH logo"/>
+              </div>
+            </a>
             <div className="nav">
               <ul className="nav-list">
-                <li className="nav-item"> <a href="https://paikkatietojentuottajat-koekaytto.maanmittauslaitos.fi/">Aineistohaku</a></li>
               </ul>
             </div>
           </div>
